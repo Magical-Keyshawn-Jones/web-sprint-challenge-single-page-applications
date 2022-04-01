@@ -35,8 +35,13 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 1. In 1-2 sentences, explain what React's `useRouteMatch` hook is used for.
+    useRouteMatch is so you can add nested routes and only change the parameter without changing the whole thing
+
 1. How would you explain form validation to someone who has never programmed before?
+    validation is a test. You create the test which is equal to a an object. It validates your input to see if its good enough
+
 1. In 1-2 sentences, define end to end testing.
+    End to end testing is when we make a test of the UI to make sure everything works as it should. "Can I type inside of this input??"
 
 ## Instructions
 
@@ -52,9 +57,9 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Your finished project must include all of the following requirements:
 
-- [ ] A homepage that has a "/" route and links to your form (button, nav bar, or any other type of link is acceptable but must have an id of "order-pizza")
-- [ ] A order form that has a "/pizza" route and shows the form
-- [ ] A form with an id of "pizza-form"
+- [x] A homepage that has a "/" route and links to your form (button, nav bar, or any other type of link is acceptable but must have an id of "order-pizza")
+- [x] A order form that has a "/pizza" route and shows the form
+- [x] A form with an id of "pizza-form"
 - [ ] A name text input field with an id of "name-input"
 - [ ] Validation for name and the error message is "name must be at least 2 characters" (Use this exact error message to make sure tests pass) ::: VERY IMPORTANT TO USE THAT EXACT ERROR MESSAGE (casing included!)
 - [ ] A dropdown for pizza size with an id of "size-dropdown"
